@@ -2,18 +2,16 @@ body{
   background-size: cover;
   font-family: "Mooli";
 }
+.header{
+  background-color: #DC9443;
+}
 .container{
  width: 1425px;
-
+ margin: auto;
 }
-
-* {box-sizing: border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
 .founder{
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
 }
 figcaption{
   font-style: italic;
@@ -30,42 +28,4 @@ figcaption{
 }
 .mission{
   font-family: 'Sofia Sans Condensed', sans-serif;
-}
-
-#links{
-  text-decoration: none;
-  background-color: #DC9443;
-  font-size: 20;
-  font-style: italic;
-  font-family: Mooli, monospace;
-  width: 100%;
-  height: 50px;
-  padding-right: 10px;
-  padding-top: 10;
-  float: right;
-}
-
-a:hover{
-  text-decoration: none;
-  border-radius:15px;
-  background-color: #ab7333;
-  color: #000000;
- font-family: Mooli, inherit;
-}
-
-.footer{
-  text-decoration: none;
-  background-color: #DC9443;
-  font-size: 10;
-  font-style: italic;
-  font-family: Mooli, monospace;
-  width: 100%;
-  height: 50px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  float: right;
-}
-#logo{
-  width: 300px;
 }

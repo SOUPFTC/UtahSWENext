@@ -3,8 +3,11 @@ body{
   font-family: "Mooli";
 }
 .container{
- width: 1425px;
-
+  width: 1425px;
+  margin: auto
+}
+.header{
+  background-color: #DC9443;
 }
 
 * {box-sizing: border-box}
@@ -90,41 +93,43 @@ img {vertical-align: middle;}
 
 }
 
+.founder{
+  display: flex;
+  justify-content:space-around;
+}
 
-#links{
-  text-decoration: none;
-  background-color: #DC9443;
-  font-size: 20;
+figcaption{
   font-style: italic;
-  font-family: Mooli, monospace;
-  width: 100%;
-  height: 50px;
-  padding-right: 10px;
-  padding-top: 10;
-  float: right;
+  font-family: monospace;
+}
+.team, .founder{
+  max-width: 200px;
+  padding:5px;
+  border: 3px solid #E3652D;
+  border-radius: 10%;
+}
+.StatementIndent{
+  margin-left: 50;
+}
+.mission{
+  font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
-a:hover{
-  text-decoration: none;
-  border-radius:15px;
-  background-color: #ab7333;
-  color: #000000;
- font-family: Mooli, inherit;
+.events{
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid #743122;
+  border-radius: 10%;
 }
 
-#logo{
+.logo{
   width: 300px;
 }
-.footer{
-  text-decoration: none;
-  background-color: #DC9443;
-  font-size: 5;
-  font-style: italic;
-  font-family: Mooli, monospace;
-  width: 100%;
-  height: 50px;
-  padding-right: 10px;
-  padding-top: 10;
-  padding-bottom: 10px;
-  float: right;
+
+.pastEvents{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
